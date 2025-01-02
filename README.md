@@ -8,6 +8,17 @@ Technologies
 
     Framework: .NET 8
     Database: MySQL 8
-    ORM: None (uses inline SQL queries)
+    ORM: None (uses inline MySQL queries)
     Package Manager: NuGet
 
+Project Structure
+
+    Employee Portal/
+    ├── Controllers/       # MVC controllers
+    ├── Models/            # Plain C# models
+    ├── Views/             # Razor views
+    ├── Data/              # Database service
+    ├── Infrastructure/    # Infrastructure layer with inline MySQL queries
+    ├── Program.cs         # Entry point of the application
+    ├── appsettings.json   # Configuration file
+    ├── README.md          # Project documentation
